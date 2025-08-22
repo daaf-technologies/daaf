@@ -1,0 +1,26 @@
+# Node / SvelteKit
+node_modules/
+.svelte-kit/
+.vite/
+dist/
+build/
+*.log
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Netlify
+.netlify/
+
+# Sanity
+.sanity/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/*
+!.vscode/extensions.json

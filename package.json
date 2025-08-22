@@ -1,0 +1,25 @@
+{
+  "name": "daaf",
+  "private": true,
+  "workspaces": [
+    "web",
+    "studio"
+  ],
+  "engines": {
+    "node": ">=24.6.0",
+    "npm": ">=11.5.1"
+  },
+  "packageManager": "npm@11.5.1",
+  "volta": {
+    "node": "24.6.0",
+    "npm": "11.5.1"
+  },
+  "scripts": {
+    "web:dev": "npm --workspace web run dev",
+    "web:build": "npm --workspace web run build",
+    "web:preview": "npm --workspace web run preview",
+    "studio:dev": "npm --workspace studio run dev",
+    "studio:build": "npm --workspace studio run build",
+    "format": "npx prettier --write ."
+  }
+}

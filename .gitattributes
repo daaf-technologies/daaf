@@ -1,0 +1,7 @@
+* text=auto
+*.sh eol=lf
+*.js eol=lf
+*.ts eol=lf
+*.svelte eol=lf
+*.css eol=lf
+*.md eol=lf
