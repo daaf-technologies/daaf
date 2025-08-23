@@ -58,11 +58,11 @@ npm install
 ### Useful scripts (from repo root)
 
 ```bash
-npm run web:dev      # (Step 2 will wire SvelteKit dev)
-npm run web:build    # (Step 2 will produce static site to web/build)
+npm run web:dev 
+npm run web:build
 npm run web:preview
 
-npm run studio:dev   # (Step 2 will run Sanity Studio)
+npm run studio:dev
 npm run studio:build
 ```
 
@@ -75,10 +75,23 @@ npm run studio:build
 - **Command**: `npm run build`
 - **Environment**: `NODE_VERSION=24.6.0`, `NPM_VERSION=11.5.1`
 
-> In Step 2, we’ll add the SvelteKit app (adapter-static) and mdsvex setup inside `web/`.
-
 ## Conventions
 
 - LF line endings enforced via `.gitattributes`
 - 2-space indentation via `.editorconfig`
 - Code formatting via Prettier (`npm run format`)
+
+## Overrides
+
+```json
+// cookie
+"overrides": {
+   "cookie": "^0.7.0"
+}
+```
+
+## Sanity Studio
+
+- [Read "getting started" in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
+- [Join the Sanity community](https://www.sanity.io/community/join?utm_source=readme)
+- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)

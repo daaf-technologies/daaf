@@ -1,5 +1,6 @@
 # Node / SvelteKit
 node_modules/
+node_modules
 .svelte-kit/
 .vite/
 dist/
@@ -24,3 +25,4 @@ Thumbs.db
 # IDE
 .vscode/*
 !.vscode/extensions.json
+!.vscode/settings.json
